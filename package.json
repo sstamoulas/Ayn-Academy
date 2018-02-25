@@ -11,22 +11,14 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/business-casual",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
+    "scripts": {
+        "start": "node server.js",
+        "postinstall": "gulp default"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
+        "express": "4.13.3",
+        "gulp": "^3.9.1",
         "jquery": "3.3.1"
     },
     "devDependencies": {
