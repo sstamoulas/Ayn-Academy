@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(47, 23, 15, 0.65)), url("../img/serenity.jpg");
+  background: url("../img/serenity.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -53,6 +53,7 @@ p {
 }
 
 .section-heading .section-heading-upper {
+  margin-top: -11%;
   display: block;
   font-size: 1rem;
   font-weight: 800;
@@ -64,12 +65,55 @@ p {
   font-weight: 100;
 }
 
+@media (min-width: 768px) {
+  .section-heading .section-heading-upper {
+    margin-top: -5%;
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-heading .section-heading-upper {
+    margin-top: -2%;
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    margin-top: -3%;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-heading .section-heading-upper {
+    margin-top: -5%;
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
+
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
 #mainNav {
-  background-color: rgba(0, 23, 15, 0.9);
+  background-color: rgba(179, 203, 255, 0.9);
   font-family: 'Raleway';
 }
 
@@ -160,15 +204,64 @@ p {
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
+.about-heading .about-heading-img {
+  position: relative;
+  height: .5%;
+}
+
+.about-heading .about-heading-content {
+  margin-left: 3%;
+  position: absolute;
+  width: 94%;
+  left: 0;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .about-heading .about-heading-img {
+    position: relative;
+  }
+  .about-heading .about-heading-content {
+    line-height: 288%;
+    margin-left: 2.15%;
+    position: absolute;
+    width: 95.75%;
+    display: flex;
+    flex-flow: column;
+    left: 0;
+    top: 0;
+  }
+}
+
 @media (min-width: 992px) {
   .about-heading .about-heading-img {
     position: relative;
-    z-index: 0;
   }
   .about-heading .about-heading-content {
-    margin-top: -5rem;
+    line-height: 782.5%;
+    margin-left: -15.4%;
+    position: absolute;
+    width: 131%;
+    display: flex;
+    flex-flow: column;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-heading .about-heading-img {
     position: relative;
-    z-index: 1;
+  }
+  .about-heading .about-heading-content {
+    line-height: 782.5%;
+    margin-left: -15.4%;
+    position: absolute;
+    width: 131%;
+    display: flex;
+    flex-flow: column;
+    left: 0;
+    top: 0;
   }
 }
 
@@ -219,7 +312,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(0, 23, 15, 0.9);
+  background-color: rgba(179, 203, 255, 0.9);
 }
 
 .text-primary {

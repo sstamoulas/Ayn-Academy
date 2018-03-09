@@ -1,6 +1,6 @@
 body {
   @include body-font;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(47, 23, 15, 0.65)), url('../img/serenity.jpg');
+  background: url('../img/serenity.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -50,6 +50,7 @@ p {
 .section-heading {
   text-transform: uppercase;
   .section-heading-upper {
+    margin-top: -11%;
     display: block;
     font-size: 1rem;
     font-weight: 800;
@@ -58,6 +59,46 @@ p {
     display: block;
     font-size: 3rem;
     font-weight: 100;
+  }
+  @media (min-width: 768px) {
+    .section-heading-upper {
+      margin-top: -5%;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .section-heading-lower {
+      display: block;
+      font-size: 3rem;
+      font-weight: 100;
+    }
+  }
+  @media (min-width: 992px) {
+    .section-heading-upper {
+      margin-top: -2%;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .section-heading-lower {
+      display: block;
+      margin-top: -3%;
+      font-size: 3rem;
+      font-weight: 100;
+    }
+  }
+  @media (min-width: 1200px) {
+    .section-heading-upper {
+      margin-top: -5%;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .section-heading-lower {
+      display: block;
+      font-size: 3rem;
+      font-weight: 100;
+    }
   }
 }
 
