@@ -1,21 +1,67 @@
 .about-heading {  
-  .about-heading-img {
-    position: relative;
-    height: .5%;
+  @media (min-width: 360px) {
+    .about-heading-img {
+      position: absolute;
+      height: 100px;
+      left: 0;
+      top: 0;
+    }
+    .about-heading-content {
+      line-height: 50%;
+      margin-left: 3%;
+      position: absolute;
+      width: 94%;
+    }
+    .about-content {
+      p {
+        line-height: 1.5;
+      }
+    }
   }
-  .about-heading-content {
-    margin-left: 3%;
-    position: absolute;
-    width: 94%;
-    left: 0;
-    top: 0;
-  }
-  @media (min-width: 768px) {
+  @media (min-width: 430px) {
     .about-heading-img {
       position: relative;
     }
     .about-heading-content {
-      line-height: 288%;
+      margin-left: 2.5%;
+      position: absolute;
+      width: 95%;
+      flex-flow: column;
+      left: 0;
+      top: 0;
+    }
+    .about-content {
+      p {
+        line-height: 1.5;
+      }
+    }
+  }
+  @media (min-width: 576px) {
+    .about-heading-img {
+      position: relative;
+    }
+    .about-heading-content {
+      line-height: 150%;
+      margin-left: 3%;
+      position: absolute;
+      width: 94%;
+      flex-flow: column;
+      left: 0;
+      top: 0;
+    }
+    .about-content {
+      p {
+        line-height: 1;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .about-heading-img {
+      position: relative;
+      height: .5%;
+    }
+    .about-heading-content {
+      line-height: 337%;
       margin-left: 2.15%;
       position: absolute;
       width: 95.75%;
@@ -24,20 +70,30 @@
       left: 0;
       top: 0;
     }
+    .about-content {
+      p {
+        line-height: 1.5;
+      }
+    }
   }
   @media (min-width: 992px) {
     .about-heading-img {
       position: relative;
     }
     .about-heading-content {
-      line-height: 782.5%;
-      margin-left: -15.4%;
+      line-height: 269%;
+      margin-left: -8.7%;
       position: absolute;
-      width: 131%;
+      width: 117.4%;
       display: flex;
       flex-flow: column;
       left: 0;
       top: 0;
+    }
+    .about-content {
+      p {
+        line-height: 3;
+      }
     }
   }
   @media (min-width: 1200px) {
@@ -45,7 +101,7 @@
       position: relative;
     }
     .about-heading-content {
-      line-height: 782.5%;
+      line-height: 437%;
       margin-left: -15.4%;
       position: absolute;
       width: 131%;
@@ -53,6 +109,11 @@
       flex-flow: column;
       left: 0;
       top: 0;
+    }
+    .about-content {
+      p {
+        line-height: 3;
+      }
     }
   }
 }

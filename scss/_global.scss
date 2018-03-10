@@ -39,6 +39,7 @@ p {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
+    color: #000000;
   }
 }
 
@@ -49,26 +50,44 @@ p {
 
 .section-heading {
   text-transform: uppercase;
-  .section-heading-upper {
-    margin-top: -11%;
-    display: block;
-    font-size: 1rem;
-    font-weight: 800;
-  }
-  .section-heading-lower {
-    display: block;
-    font-size: 3rem;
-    font-weight: 100;
-  }
-  @media (min-width: 768px) {
+  @media (min-width: 360px) {
     .section-heading-upper {
-      margin-top: -5%;
+      margin-top: -11%;
       display: block;
       font-size: 1rem;
       font-weight: 800;
     }
     .section-heading-lower {
       display: block;
+      margin-top: -11%;
+      font-size: 2rem;
+      font-weight: 100;
+    }
+  }
+  @media (min-width: 430px) {
+    .section-heading-upper {
+      margin-top: -6%;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .section-heading-lower {
+      display: block;
+      margin-top: -2%;
+      font-size: 2rem;
+      font-weight: 100;
+    }
+  }
+  @media (min-width: 768px) {
+    .section-heading-upper {
+      margin-top: -3%;
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    .section-heading-lower {
+      display: block;
+      margin-top: 0%;
       font-size: 3rem;
       font-weight: 100;
     }
@@ -82,20 +101,21 @@ p {
     }
     .section-heading-lower {
       display: block;
-      margin-top: -3%;
+      margin-top: -1%;
       font-size: 3rem;
       font-weight: 100;
     }
   }
   @media (min-width: 1200px) {
     .section-heading-upper {
-      margin-top: -5%;
+      margin-top: -3%;
       display: block;
       font-size: 1rem;
       font-weight: 800;
     }
     .section-heading-lower {
       display: block;
+      margin-top: 0%;
       font-size: 3rem;
       font-weight: 100;
     }
