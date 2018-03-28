@@ -62,7 +62,7 @@ p {
   }
   .section-heading .section-heading-lower {
     display: block;
-    margin-top: -11%;
+    margin-top: 2%;
     font-size: 2rem;
     font-weight: 100;
   }
@@ -122,7 +122,7 @@ p {
   }
   .section-heading .section-heading-lower {
     display: block;
-    margin-top: -1%;
+    margin-top: 2%;
     font-size: 3rem;
     font-weight: 100;
   }
@@ -137,7 +137,7 @@ p {
   }
   .section-heading .section-heading-lower {
     display: block;
-    margin-top: -3%;
+    margin-top: 2%;
     font-size: 3rem;
     font-weight: 100;
   }
@@ -145,14 +145,14 @@ p {
 
 @media (min-width: 1200px) {
   .section-heading .section-heading-upper {
-    margin-top: -3%;
+    margin-top: -5%;
     display: block;
     font-size: 1rem;
     font-weight: 800;
   }
   .section-heading .section-heading-lower {
     display: block;
-    margin-top: 0%;
+    margin-top: 1%;
     font-size: 3rem;
     font-weight: 100;
   }
@@ -275,7 +275,7 @@ p {
     object-fit: fill;
   }
   .about-heading .about-heading-content {
-    top: 453px;
+    top: 463px;
     left: 0;
     position: absolute;
   }
@@ -284,13 +284,13 @@ p {
     overflow: auto;
   }
   .about-heading .about-content h2 {
-    line-height: 2.25;
+    line-height: 3.25;
   }
   .about-heading .about-content p {
-    line-height: 3;
+    line-height: 3.2;
   }
   .about-heading .about-content li {
-    line-height: 3;
+    line-height: 3.5;
   }
 }
 
@@ -301,23 +301,26 @@ p {
   }
   .about-heading .about-large-heading-img img {
     position: relative;
-    object-fit: fill;
+    max-height: 1200px;
+    margin-left: 100px;
   }
   .about-heading .about-heading-content {
-    top: 453px;
+    top: 460px;
     left: 0;
     width: 100%;
     position: absolute;
   }
   .about-heading .content {
-    max-height: 1450px;
+    max-height: 1150px;
+    margin-left: 25px;
+    margin-right: 25px;
     overflow: auto;
   }
   .about-heading .about-content h2 {
-    line-height: 2.25;
+    line-height: 1.25;
   }
   .about-heading .about-content p {
-    line-height: 3;
+    line-height: 3.5;
   }
   .about-heading .about-content li {
     line-height: 3;
@@ -331,23 +334,26 @@ p {
   }
   .about-heading .about-large-heading-img img {
     position: relative;
-    object-fit: fill;
+    max-height: 1200px;
+    margin-left: 100px;
   }
   .about-heading .about-heading-content {
-    top: 453px;
+    top: 463px;
     left: 0;
     width: 100%;
     position: absolute;
   }
   .about-heading .content {
-    max-height: 1450px;
+    max-height: 1150px;
+    margin-left: 100px;
+    margin-right: 110px;
     overflow: auto;
   }
   .about-heading .about-content h2 {
-    line-height: 2.25;
+    line-height: 1.25;
   }
   .about-heading .about-content p {
-    line-height: 3;
+    line-height: 3.5;
   }
   .about-heading .about-content li {
     line-height: 3;
@@ -358,7 +364,8 @@ p {
   .product-item .product-item-title {
     position: relative;
     z-index: 1;
-    margin-bottom: -3rem;
+    margin-bottom: -1%;
+    margin-right: 35.3%;
   }
   .product-item .product-item-img {
     position: relative;
@@ -368,8 +375,9 @@ p {
   .product-item .product-item-description {
     position: relative;
     z-index: 1;
-    margin-top: -3rem;
+    margin-top: -1%;
     max-width: 50vw;
+    margin-right: 18%;
   }
 }
 
@@ -382,11 +390,12 @@ p {
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
-}
-
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #000000;
+  /*
+    &.today {
+      font-weight: bold;
+      color: $primary;
+    }
+    */
 }
 
 @media (min-width: 992px) {

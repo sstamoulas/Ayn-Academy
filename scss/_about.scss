@@ -19,7 +19,7 @@
       object-fit: fill;
     }
     .about-heading-content {
-      top: 453px;
+      top: 463px;
       left: 0;
       position: absolute;
     }
@@ -29,13 +29,13 @@
     }
     .about-content {
       h2 {
-        line-height: 2.25;
+        line-height: 3.25;
       }
       p {
-        line-height: 3;
+        line-height: 3.2;
       }
       li {
-        line-height: 3;
+        line-height: 3.5;
       }
     }
   }
@@ -46,24 +46,27 @@
     }
     .about-large-heading-img img {
       position: relative;
-      object-fit: fill;
+      max-height: 1200px;
+      margin-left: 100px;
     }
     .about-heading-content {
-      top: 453px;
+      top: 460px;
       left: 0;
       width: 100%;
       position: absolute;
     }
     .content {
-      max-height: 1450px;
+      max-height: 1150px;
+      margin-left: 25px;
+      margin-right: 25px;
       overflow: auto;
     }
     .about-content {
       h2 {
-        line-height: 2.25;
+        line-height: 1.25;
       }
       p {
-        line-height: 3;
+        line-height: 3.5;
       }
       li {
         line-height: 3;
@@ -77,24 +80,27 @@
     }
     .about-large-heading-img img {
       position:relative;
-      object-fit: fill;
+      max-height: 1200px;
+      margin-left: 100px;
     }
     .about-heading-content {
-      top: 453px;
+      top: 463px;
       left: 0;
       width: 100%;
       position: absolute;
     }
     .content {
-      max-height: 1450px;
+      max-height: 1150px;
+      margin-left: 100px;
+      margin-right: 110px;
       overflow: auto;
     }
     .about-content {
       h2 {
-        line-height: 2.25;
+        line-height: 1.25;
       }
       p {
-        line-height: 3;
+        line-height: 3.5;
       }
       li {
         line-height: 3;
